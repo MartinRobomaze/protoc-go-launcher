@@ -6,7 +6,8 @@ import (
 	"log"
 	"os"
 	"os/exec"
-	"protoc-go-launcher/protoc"
+
+	"github.com/MartinRobomaze/protoc-go-launcher/protoc"
 )
 
 func main() {
