@@ -1,7 +1,12 @@
 # protoc-go-launcher
 Launcher of protoc &amp; grpc Go code generator.
 Handles downloading protoc and Go protoc plugins automatically.
-Usage:
+### Installation
+```shell
+go install github.com/MartinRobomaze/protoc-go-launcher@latest
+```
+### Usage
+Command usage:
 ```shell
 protoc-go-launcher --protoc_version <VERSION> PROTOC_COMMANDS
 ```
